@@ -8,5 +8,4 @@ class geohash:
         h=p.encode(self.lat,self.long)
         return h
 
-a=geohash(22.9868,87.8550)
-print(a.hash())
+
